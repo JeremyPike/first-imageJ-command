@@ -12,15 +12,15 @@
 		<relativePath />
 	</parent>
 
-	<groupId>uk.ac.cam.cruk</groupId>
-	<version>0.1.0-SNAPSHOT</version>
+	<groupId>uk.ac.birmingham</groupId>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<name>Difference of Guassian</name>
-	<url>http://www.cruk.cam.ac.uk/</url>
+	<url>http://www.birmingham-nottingham.ac.uk/compare/</url>
 	<inceptionYear>2017</inceptionYear>
 	<organization>
-		<name>CRUK-CI</name>
-		<url>http://www.cruk.cam.ac.uk/</url>
+		<name>COMPARE</name>
+		<url>http://www.birmingham-nottingham.ac.uk/compare/</url>
 	</organization>
 	<licenses>
 		<license>
@@ -33,7 +33,7 @@
 		<developer>
 			<id>japike</id>
 			<name>Jeremy Pike</name>
-			<url>http://www.cruk.cam.ac.uk/</url>
+			<url>https://github.com/jeremypike</url>
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -46,7 +46,14 @@
 		</developer>
 	</developers>
 
-
+	<contributors>
+		<contributor>
+			<name>Jeremy Pike</name>
+			<url>https://github.com/jeremypike</url>
+			<roles><role>founder</role></roles>
+			<properties><id>japike</id></properties>
+		</contributor>
+	</contributors>
 	<mailingLists>
 		<mailingList>
 			<name>ImageJ Forum</name>
@@ -69,8 +76,8 @@
 	</ciManagement>
 
 	<properties>
-		<package-name>uk.ac.cam.cruk</package-name>
-		<main-class>uk.ac.cam.cruk.DifferenceGauss</main-class>
+		<package-name>uk.ac.birmingham</package-name>
+		<main-class>uk.ac.birmingham.DifferenceGauss</main-class>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>...</license.copyrightOwners>
 	</properties>

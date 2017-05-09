@@ -1,6 +1,6 @@
 
 
-package uk.ac.cruk;
+package uk.ac.birmingham;
 
 import org.scijava.ItemIO;
 import org.scijava.command.Command;
